@@ -1,5 +1,15 @@
+var text = new PointText(new Point(50, 50));
+text.fillColor = 'black';
+text.fontWeight = 600;
+text.fontSize = 20;
+
+text.content = 'Keyboard Tap Beat';
+
+var subtitle = new PointText(new Point(50, 70));
+subtitle.fillColor = 'black';
+subtitle.content = 'Press A to Z and turn up your speaker';
+
 var circles = [];
-var rectangles = [];
 
 var keyData = {
     q: {
